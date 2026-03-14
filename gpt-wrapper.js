@@ -10,7 +10,7 @@
     window.googletag = window.googletag || {cmd: []};
     googletag.cmd.push(function() {
         // Define your ad slot
-        var slot = googletag.defineSlot('/23330254529/afp.org_banner1', [728, 90], 'div-gpt-ad-1')
+        var slot = googletag.defineSlot('/23330254529/gptwrapper', [728, 90], 'div-gpt-ad-1')
             .addService(googletag.pubads());
 
         // Enable single request mode (faster)
